@@ -43,7 +43,7 @@ class MovieDetail : AppCompatActivity() {
         binding.textView3.visibility = View.INVISIBLE
         binding.textView4.visibility = View.INVISIBLE
         binding.textView5.visibility = View.INVISIBLE
-        binding.imgPosterMovieDetail.visibility = View.INVISIBLE
+        binding.imgMovieDetail.visibility = View.INVISIBLE
 
         val movieId = intent.getIntExtra("movie_id", 0)
         Toast.makeText(applicationContext, "Movie ID: $movieId", Toast.LENGTH_SHORT).show()
@@ -65,7 +65,7 @@ class MovieDetail : AppCompatActivity() {
                 binding.textView3.visibility = View.VISIBLE
                 binding.textView4.visibility = View.VISIBLE
                 binding.textView5.visibility = View.VISIBLE
-                binding.imgPosterMovieDetail.visibility = View.VISIBLE
+                binding.imgMovieDetail.visibility = View.VISIBLE
             }
 
             binding.tvTitleMovieDetail.apply {
@@ -97,7 +97,7 @@ class MovieDetail : AppCompatActivity() {
             binding.rvProductionCompany.adapter = adapterCompany
 
             Glide.with(applicationContext).load(Const.IMG_URL + response.backdrop_path)
-                .into(binding.imgPosterMovieDetail)
+                .into(binding.imgMovieDetail)
         })
 
 
