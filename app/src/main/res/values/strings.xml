@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Week4Retrofit</string>
+    <string name="nulldata">-</string>
+    <string name="img">img</string>
+    <string name="genre">genre</string>
+    <string name="language">language</string>
+    <string name="Productioncountry">Productioncountry</string>
+    <string name="Productioncompany">Productioncompany</string>
+    <string name="overview">overview</string>
+</resources>
