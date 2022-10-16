@@ -42,7 +42,7 @@
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="@+id/img_movie_detail"
                 app:layout_constraintStart_toStartOf="@+id/img_movie_detail"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toBottomOf="@+id/Genre" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_language"
@@ -51,7 +51,7 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="@+id/rv_genre"
                 app:layout_constraintStart_toStartOf="@+id/rv_genre"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/Language" />
 
             <ImageView
                 android:id="@+id/img_movie_detail"
@@ -89,7 +89,7 @@
                 app:layout_constraintTop_toTopOf="@+id/img_movie_detail" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/Genre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
@@ -101,7 +101,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/img_movie_detail" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/Language"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -112,7 +112,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/rv_genre" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/Production_Country"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -128,11 +128,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="@+id/rv_language"
-                app:layout_constraintStart_toStartOf="@+id/textView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+                app:layout_constraintStart_toStartOf="@+id/Production_Country"
+                app:layout_constraintTop_toBottomOf="@+id/Production_Country" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/Production_Company"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -148,11 +148,11 @@
                 android:layout_height="97dp"
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="@+id/rv_production_country"
-                app:layout_constraintStart_toStartOf="@+id/textView4"
-                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+                app:layout_constraintStart_toStartOf="@+id/Production_Company"
+                app:layout_constraintTop_toBottomOf="@+id/Production_Company" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/Overview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -173,8 +173,8 @@
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/textView5"
-                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+                app:layout_constraintStart_toStartOf="@+id/Overview"
+                app:layout_constraintTop_toBottomOf="@+id/Overview" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

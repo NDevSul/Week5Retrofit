@@ -38,11 +38,11 @@ class MovieDetail : AppCompatActivity() {
         binding.rvProductionCompany.visibility = View.INVISIBLE
         binding.tvTitleMovieDetail.visibility = View.INVISIBLE
         binding.tvOverview.visibility = View.INVISIBLE
-        binding.textView.visibility = View.INVISIBLE
-        binding.textView2.visibility = View.INVISIBLE
-        binding.textView3.visibility = View.INVISIBLE
-        binding.textView4.visibility = View.INVISIBLE
-        binding.textView5.visibility = View.INVISIBLE
+        binding.Genre.visibility = View.INVISIBLE
+        binding.Language.visibility = View.INVISIBLE
+        binding.ProductionCountry.visibility = View.INVISIBLE
+        binding.ProductionCompany.visibility = View.INVISIBLE
+        binding.Overview.visibility = View.INVISIBLE
         binding.imgMovieDetail.visibility = View.INVISIBLE
 
         val movieId = intent.getIntExtra("movie_id", 0)
@@ -60,11 +60,11 @@ class MovieDetail : AppCompatActivity() {
                 binding.rvProductionCountry.visibility = View.VISIBLE
                 binding.tvOverview.visibility = View.VISIBLE
                 binding.tvTitleMovieDetail.visibility = View.VISIBLE
-                binding.textView.visibility = View.VISIBLE
-                binding.textView2.visibility = View.VISIBLE
-                binding.textView3.visibility = View.VISIBLE
-                binding.textView4.visibility = View.VISIBLE
-                binding.textView5.visibility = View.VISIBLE
+                binding.Genre.visibility = View.VISIBLE
+                binding.Language.visibility = View.VISIBLE
+                binding.ProductionCountry.visibility = View.VISIBLE
+                binding.ProductionCompany.visibility = View.VISIBLE
+                binding.Overview.visibility = View.VISIBLE
                 binding.imgMovieDetail.visibility = View.VISIBLE
             }
 
